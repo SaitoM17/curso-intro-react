@@ -20,12 +20,13 @@ function TodoForm(){
     };
     const onSubmit = (event) => {
         event.preventDefault();
+        if(newTodoValue.length <= 0)return;
         addTodo(newTodoValue)
         setOpenModal(false);
     };
     return(
         <form onSubmit={onSubmit}>
-            <label>Escribe tu nuevo TODO</label>
+            <label>Escribe tu nuevo Task</label>
             
             <textarea
             value={newTodoValue}

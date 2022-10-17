@@ -11,7 +11,7 @@ function TodoItem(props) {
         <RiCheckboxCircleFill className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
         onClick={props.onComplete}
         >
-          √
+          
         </RiCheckboxCircleFill>
 
         <p className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}>
@@ -21,7 +21,7 @@ function TodoItem(props) {
         <RiCloseCircleFill className="Icon Icon-delete"
         onClick={props.onDelete}
         >
-          X
+          
         </RiCloseCircleFill>
         
       </li>

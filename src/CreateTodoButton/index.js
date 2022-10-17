@@ -1,6 +1,6 @@
 import React from 'react';
 import './CreateTodoButton.css'
-
+import {FaPlusCircle} from 'react-icons/fa'
 
 function CreateTodoButton(props){
     const onClickButton = () => {
@@ -8,11 +8,10 @@ function CreateTodoButton(props){
     };
 
     return(
-        <button className='CreateTodoButton'
+        <FaPlusCircle className='CreateTodoButton'
         onClick={onClickButton}
         >
-            +
-            </button>
+        </FaPlusCircle>
     );
 }
 

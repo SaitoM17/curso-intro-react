@@ -1,0 +1,44 @@
+/* .LoadingTodo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 8px 5px 50px rgba(32, 35, 41, 0.15);
+} */
+
+.LoadingTodo-container{
+    height: 200px;
+    width: 200px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 8px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.LoadingTodo-text{
+    margin: 0px auto;
+    margin-bottom: -120px;
+    /* width: calc(100% - 120px); */
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+.LoadingTodo-completeIcon{
+    /* border-radius: 50px; */
+    height: 120px;
+    width: 120px;
+}
+
+.LoadingTodo-completeIcon{
+    margin-top: -40px;
+    position: absolute;
+    /* left: 60px; */
+    align-items: center;
+    display: block;
+}

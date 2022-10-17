@@ -1,7 +1,7 @@
 form {
     width: 90%;
     max-width: 300px;
-    background-color: rgb(76, 103, 147);
+    background-color: #EDEDED;
     border-radius: 20px;
     padding: 33px 40px;
     display: flex;
@@ -38,7 +38,7 @@ form {
   }
   
   textarea:focus {
-    outline-color: #61DAFA;
+    outline-color: black;
   }
   
   .TodoForm-buttonContainer {
@@ -59,14 +59,15 @@ form {
     height: 48px;
     border-radius: 20px;
     border: none;
+    border: 1px solid black;
     font-family: 'Montserrat';
   }
   
   .TodoForm-button--add {
-    background: #61DAFA;
+    background: black;
     box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
   }
   
   .TodoForm-button--cancel {
-    background: transparent;
+      background: transparent;
   }
